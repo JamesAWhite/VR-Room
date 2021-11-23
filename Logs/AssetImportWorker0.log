@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16332 MB
+OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16332 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,12 +15,12 @@ C:/Users/Public/Documents/Unity Projects/VR Room Alex
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63602
+55685
 Successfully changed project path to: C:/Users/Public/Documents/Unity Projects/VR Room Alex
 C:/Users/Public/Documents/Unity Projects/VR Room Alex
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 96.30 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.91 ms.
+Refreshing native plugins compatible for Editor in 103.82 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.87 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Public/Documents/Unity Projects/VR Room Alex/Assets
@@ -36,7 +36,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -44,37 +44,37 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.004094 seconds.
+Registered in 0.004182 seconds.
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 84.91 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 85.38 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.523 seconds
+- Completed reload, in  2.889 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2523ms)
-		BeginReloadAssembly (59ms)
+	ReloadAssembly (2889ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (543ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (597ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (178ms)
+			SetupTypeCache (211ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (234ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (251ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (85ms)
-				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (92ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (107ms)
 				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -82,15 +82,15 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015948 seconds.
+Registered in 0.019152 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 79.94 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 95.52 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -111,46 +111,46 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.670 seconds
+- Completed reload, in  1.871 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1671ms)
-		BeginReloadAssembly (162ms)
+	ReloadAssembly (1873ms)
+		BeginReloadAssembly (183ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1437ms)
-			LoadAssemblies (118ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1608ms)
+			LoadAssemblies (126ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (402ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (628ms)
+			SetupTypeCache (479ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (700ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (80ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (402ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (431ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.06 ms, found 12 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 3478 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 156.6 MB.
-System memory in use after: 156.6 MB.
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.2 MB.
+System memory in use after: 157.3 MB.
 
-Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 3981.
-Total: 4.612400 ms (FindLiveObjects: 0.443900 ms CreateObjectMapping: 0.315400 ms MarkObjects: 3.756700 ms  DeleteObjects: 0.095100 ms)
+Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 3982.
+Total: 7.524400 ms (FindLiveObjects: 1.829100 ms CreateObjectMapping: 0.859300 ms MarkObjects: 4.713900 ms  DeleteObjects: 0.120500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -165,135 +165,23 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/VR Beginner/Models/Toaster.fbx
-  artifactKey: Guid(ceb05cd7b14eed644827add74f9edb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Models/Toaster.fbx using Guid(ceb05cd7b14eed644827add74f9edb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a29df6ff75632085e272a4a6012940d') in 0.438277 seconds 
-  Import took 0.445426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/VR Beginner/Prefabs/EscapeRoom/Props/BookRed.prefab
-  artifactKey: Guid(f125cb860e3b1e44585ab587487f3e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Prefabs/EscapeRoom/Props/BookRed.prefab using Guid(f125cb860e3b1e44585ab587487f3e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c35dcc374bad3e8b4b46aa71e06b6e0') in 0.083191 seconds 
-  Import took 0.090299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/VR Beginner/Audio/SFXImpactDrawer03.ogg
-  artifactKey: Guid(06e137ed6aae03447a113745e2dd015a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXImpactDrawer03.ogg using Guid(06e137ed6aae03447a113745e2dd015a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f476e9cad56425388879f9c56b332956') in 0.032997 seconds 
-  Import took 0.041125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/VR Beginner/Models/BookHolder.fbx
-  artifactKey: Guid(899596d67b24e29409c04c7f8a5f63be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Models/BookHolder.fbx using Guid(899596d67b24e29409c04c7f8a5f63be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1284e0417e8ae241960d97f3e3bb420') in 0.085797 seconds 
-  Import took 0.095050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/VR Beginner/Prefabs/Stations/BookHolder.prefab
-  artifactKey: Guid(8065d8971437c8d4f9ae6b7bdce5f2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Prefabs/Stations/BookHolder.prefab using Guid(8065d8971437c8d4f9ae6b7bdce5f2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6550afa99d1c16d40d3524a56506bb') in 0.049064 seconds 
-  Import took 0.055202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/VR Beginner/Models/BookRed.fbx
-  artifactKey: Guid(f0e429f9867e60a4bb625920c1d9a937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Models/BookRed.fbx using Guid(f0e429f9867e60a4bb625920c1d9a937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96503b959250aa8ee88db836b03fee76') in 0.031709 seconds 
-  Import took 0.038876 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/VR Beginner/Materials/BoxGrid.mat
-  artifactKey: Guid(85947ffe4a26a41458fada64061c9d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Materials/BoxGrid.mat using Guid(85947ffe4a26a41458fada64061c9d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a9ad4f5a3639aae554d7e438e08948') in 0.042636 seconds 
-  Import took 0.049444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/VR Beginner/VFX/Prototype/Artboard 2 copy 2.png
-  artifactKey: Guid(2d41fd27f23a18d48a4a9076fac52166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/VFX/Prototype/Artboard 2 copy 2.png using Guid(2d41fd27f23a18d48a4a9076fac52166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6074b3de8fea941ec96aad6fdc037f70') in 0.067780 seconds 
-  Import took 0.074401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/VR Beginner/Models/RemoteController.fbx
-  artifactKey: Guid(305bb086ba1c9e344ae0c20ec60eab1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Models/RemoteController.fbx using Guid(305bb086ba1c9e344ae0c20ec60eab1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef31ff117822353f4b68863720ddb49e') in 0.061596 seconds 
-  Import took 0.067661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/VR Beginner/Audio/SFXImpactDrawer01.ogg
-  artifactKey: Guid(8e39ccd7eed22a94d87f8dedd8c4d59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXImpactDrawer01.ogg using Guid(8e39ccd7eed22a94d87f8dedd8c4d59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a16c46e782b3ebc2f6ceb7988b26591') in 0.037081 seconds 
-  Import took 0.043407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/VR Beginner/Models/Thermostat.fbx
-  artifactKey: Guid(e13ccf4a61408af4cb902275e5a5d161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Models/Thermostat.fbx using Guid(e13ccf4a61408af4cb902275e5a5d161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7574588e673ed7f83c1181a15b8828') in 0.495447 seconds 
-  Import took 0.502005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/VR Beginner/Audio/SFXDrawerLoopExperimental.ogg
-  artifactKey: Guid(ab32a067930a9a544b7d83d1641396f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXDrawerLoopExperimental.ogg using Guid(ab32a067930a9a544b7d83d1641396f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417788756841a315465943c24f8b8361') in 0.032771 seconds 
-  Import took 0.041409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/VR Beginner/Audio/SFXImpactDrawer02.ogg
-  artifactKey: Guid(5ab86be4873fb2b48bf32cd4c98a8633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXImpactDrawer02.ogg using Guid(5ab86be4873fb2b48bf32cd4c98a8633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9706e8ea858f1b39cb592492025e97') in 0.040543 seconds 
-  Import took 0.049198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/VR Beginner/Prefabs/Stations/BookHolderFinal.prefab
-  artifactKey: Guid(762e3c2a45258ea4baa2ab45328a3243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Prefabs/Stations/BookHolderFinal.prefab using Guid(762e3c2a45258ea4baa2ab45328a3243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0978d08935d6f2167bfd7e192c342c85') in 0.024726 seconds 
-  Import took 0.032482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/VR Beginner/VFX/SharedTextures/BubbleGradient.png
-  artifactKey: Guid(f495e9c45f654e24883e27f77302be22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/VFX/SharedTextures/BubbleGradient.png using Guid(f495e9c45f654e24883e27f77302be22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457760ccd43a1b3132da71d6f2b324bb') in 0.018020 seconds 
-  Import took 0.025480 seconds .
+  path: Assets/MyRayScript.cs
+  artifactKey: Guid(73bbc412e6994614ba73329629b193df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyRayScript.cs using Guid(73bbc412e6994614ba73329629b193df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583621acf26b9aea7a848419c8649cf4') in 0.055136 seconds 
+  Import took 0.065766 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.015754 seconds.
+Registered in 0.017790 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.02 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
+Refreshing native plugins compatible for Editor in 1.45 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.63 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Public\Documents\Unity Projects\VR Room Alex\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Public\Documents\Unity Projects\VR Room Alex\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
@@ -310,927 +198,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.034 seconds
+- Completed reload, in  2.131 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3034ms)
-		BeginReloadAssembly (229ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (75ms)
-		EndReloadAssembly (2650ms)
-			LoadAssemblies (178ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (713ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (1252ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (208ms)
-				ProcessInitializeOnLoadAttributes (943ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
-				AfterProcessingInitializeOnLoad (21ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (76ms)
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.39 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Unloading 3337 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.8 MB.
-System memory in use after: 151.0 MB.
-
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 4069.
-Total: 9.993700 ms (FindLiveObjects: 0.466600 ms CreateObjectMapping: 0.366300 ms MarkObjects: 9.111100 ms  DeleteObjects: 0.047900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1759.972114 seconds.
-  path: Assets/VR Beginner/Prefabs/Stations/Desk.prefab
-  artifactKey: Guid(01a64cc768ea0434cb358614311e7565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Prefabs/Stations/Desk.prefab using Guid(01a64cc768ea0434cb358614311e7565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c064dc84a2eaa704fc87bce24c95e7ca') in 0.260174 seconds 
-  Import took 0.268838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Packages/com.unity.shadergraph/Editor/Resources/Styles/NodeSettings.uss
-  artifactKey: Guid(59bba4c88ab5f464d9a8f51088561c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.shadergraph/Editor/Resources/Styles/NodeSettings.uss using Guid(59bba4c88ab5f464d9a8f51088561c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1a12b56ac8e4fb3791366fa8210a65') in 0.018267 seconds 
-  Import took 0.024610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Challenges/02_3DPainting/Materials/Pedestal.mat
-  artifactKey: Guid(02c43f709cbd4455eb3d2225c6f9cdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Challenges/02_3DPainting/Materials/Pedestal.mat using Guid(02c43f709cbd4455eb3d2225c6f9cdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a453e0063a7dc9401ae2f6f050086397') in 0.041726 seconds 
-  Import took 0.048507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/VR Beginner/Models/Desk.fbx
-  artifactKey: Guid(3f6b53ff11f455d4f920d187cb688cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Models/Desk.fbx using Guid(3f6b53ff11f455d4f920d187cb688cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89f6c573a438a9bfb6a442196890db0') in 0.190089 seconds 
-  Import took 0.197192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Packages/com.unity.shadergraph/Editor/Resources/UXML/NodeSettings.uxml
-  artifactKey: Guid(b70651993c98eda43810c32b7416a21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.shadergraph/Editor/Resources/UXML/NodeSettings.uxml using Guid(b70651993c98eda43810c32b7416a21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb033d64caf355fcb0a98a0df419ae3') in 0.013428 seconds 
-  Import took 0.020862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/VR Beginner/Data/UniversalRenderPipelineAssetDesktop.asset
-  artifactKey: Guid(0106d0b55d9a5494495b6f30e3bda253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Data/UniversalRenderPipelineAssetDesktop.asset using Guid(0106d0b55d9a5494495b6f30e3bda253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26010e110e2e0a7de6ce044591dde18') in 0.012246 seconds 
-  Import took 0.020016 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015428 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Public\Documents\Unity Projects\VR Room Alex\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Public\Documents\Unity Projects\VR Room Alex\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <ef3b6bf002d8435a97b4e938f6c49b02>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.557 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2558ms)
-		BeginReloadAssembly (197ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (78ms)
-		EndReloadAssembly (2208ms)
-			LoadAssemblies (210ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (638ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (105ms)
-			SetupLoadedEditorAssemblies (870ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (211ms)
-				ProcessInitializeOnLoadAttributes (611ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (33ms)
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Unloading 3336 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.8 MB.
-System memory in use after: 151.0 MB.
-
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 4108.
-Total: 9.254500 ms (FindLiveObjects: 0.470700 ms CreateObjectMapping: 0.556900 ms MarkObjects: 8.183900 ms  DeleteObjects: 0.041400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016280 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.98 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.45 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Public\Documents\Unity Projects\VR Room Alex\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Public\Documents\Unity Projects\VR Room Alex\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <ef3b6bf002d8435a97b4e938f6c49b02>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.982 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2983ms)
-		BeginReloadAssembly (234ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (88ms)
-		EndReloadAssembly (2620ms)
-			LoadAssemblies (204ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (702ms)
-			ReleaseScriptCaches (6ms)
-			RebuildScriptCaches (90ms)
-			SetupLoadedEditorAssemblies (1215ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (159ms)
-				ProcessInitializeOnLoadAttributes (1004ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (30ms)
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Unloading 3336 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.8 MB.
-System memory in use after: 151.0 MB.
-
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 4111.
-Total: 5.485600 ms (FindLiveObjects: 0.916100 ms CreateObjectMapping: 0.320200 ms MarkObjects: 4.209700 ms  DeleteObjects: 0.037900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1131.506753 seconds.
-  path: Assets/VR Beginner/Audio/FutzedBGMMarble.ogg
-  artifactKey: Guid(2ac63100fedeaab429c0456b63297f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/FutzedBGMMarble.ogg using Guid(2ac63100fedeaab429c0456b63297f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a94ec53c70c8daf214cb210fe4629b') in 0.065831 seconds 
-  Import took 0.076728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/VR Beginner/Audio/SFXImpactHeavy04.ogg
-  artifactKey: Guid(ef2663bec11889c428b2e990047067fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXImpactHeavy04.ogg using Guid(ef2663bec11889c428b2e990047067fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7934adfa75ee383d4be04527473e7f12') in 0.018860 seconds 
-  Import took 0.026218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/VR Beginner/Audio/SFXCauldronCreak01.ogg
-  artifactKey: Guid(362b274e2f2d91b4bb1cd7556c435220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXCauldronCreak01.ogg using Guid(362b274e2f2d91b4bb1cd7556c435220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383b1a081c5fc1f01eb115c2a062ae7b') in 0.021627 seconds 
-  Import took 0.028727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/VR Beginner/Audio/FutzedRadioTuning.ogg
-  artifactKey: Guid(39f47a5988aabfd418d4815b69cca7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/FutzedRadioTuning.ogg using Guid(39f47a5988aabfd418d4815b69cca7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5abb061a641cc32b95b1a4767a307548') in 0.015586 seconds 
-  Import took 0.025467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/VR Beginner/Audio/SFXCauldronButton04.ogg
-  artifactKey: Guid(2a611e09f0cdf184aa4ae24279f38efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXCauldronButton04.ogg using Guid(2a611e09f0cdf184aa4ae24279f38efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be75ff48855f56f1c5374eff83e138f') in 0.019605 seconds 
-  Import took 0.025916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/VR Beginner/Audio/FutzedBGMPixelRPG.ogg
-  artifactKey: Guid(593010e70058e0641b1941b87f5c8ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/FutzedBGMPixelRPG.ogg using Guid(593010e70058e0641b1941b87f5c8ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1242109fc9be9e95e96e4e6748f60591') in 0.016815 seconds 
-  Import took 0.022876 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/VR Beginner/Audio/SFXImpactGlass03.ogg
-  artifactKey: Guid(37991cf3b310d194dafe0b577f2bed19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXImpactGlass03.ogg using Guid(37991cf3b310d194dafe0b577f2bed19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafdc2333750daff410672f7110796ae') in 0.033436 seconds 
-  Import took 0.043293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/VR Beginner/Audio/SFXLiquidPourLoop.ogg
-  artifactKey: Guid(3c60f683fe0f8d84c889fee74a95c765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXLiquidPourLoop.ogg using Guid(3c60f683fe0f8d84c889fee74a95c765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb3192be4cca67e0635f1877d472d14') in 0.022101 seconds 
-  Import took 0.030163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/VR Beginner/Audio/SFXCauldronBubbles02.wav
-  artifactKey: Guid(0805da97cefa5ec42b4acac4092d9b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXCauldronBubbles02.wav using Guid(0805da97cefa5ec42b4acac4092d9b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc07998ed8800ac13d0722db6e4075d') in 0.033949 seconds 
-  Import took 0.039951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/VR Beginner/Audio/FutzedBMGFPS.ogg
-  artifactKey: Guid(5995d3fe9ccbef142ac8bae30f7ab246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/FutzedBMGFPS.ogg using Guid(5995d3fe9ccbef142ac8bae30f7ab246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a771785b305cc9544fcc59e220dc4602') in 0.019101 seconds 
-  Import took 0.026362 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/VR Beginner/Audio/SFXCauldronBubbleLoop.ogg
-  artifactKey: Guid(f3def460b96abf440bbc45fa66d44c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXCauldronBubbleLoop.ogg using Guid(f3def460b96abf440bbc45fa66d44c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0911d834b7b7af3b3c22750495158cf0') in 0.018588 seconds 
-  Import took 0.025341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/VR Beginner/Audio/SFXCauldronButton07.ogg
-  artifactKey: Guid(6f02926f2a7661d4997569714f60463f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXCauldronButton07.ogg using Guid(6f02926f2a7661d4997569714f60463f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bece2441d4ae14a89f44a0e77c60aa4c') in 0.020592 seconds 
-  Import took 0.026771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/VR Beginner/Audio/SFXImpactSoft02.ogg
-  artifactKey: Guid(698723fe94cb4964fb9e7e5aea60b03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXImpactSoft02.ogg using Guid(698723fe94cb4964fb9e7e5aea60b03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb399fa0eee40f6a8b1618fd9af1a8ca') in 0.015388 seconds 
-  Import took 0.023150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/VR Beginner/Audio/SFXGlassSmash02.wav
-  artifactKey: Guid(f113d79bd6c0a7c40acedb2b7039bb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXGlassSmash02.wav using Guid(f113d79bd6c0a7c40acedb2b7039bb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80677bd8cbec56d2db2a9b7064db8c1d') in 0.019669 seconds 
-  Import took 0.026115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/VR Beginner/Audio/FutzedBGMMenu.ogg
-  artifactKey: Guid(d51aefc06b28742469e421eef9a847f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/FutzedBGMMenu.ogg using Guid(d51aefc06b28742469e421eef9a847f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e80f7d82bf13c9b653bf4afafe0df4') in 0.015959 seconds 
-  Import took 0.022012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/VR Beginner/Audio/SFXGlassSmash03.wav
-  artifactKey: Guid(cb39de09e2e4cd64e94701af2f9e9c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXGlassSmash03.wav using Guid(cb39de09e2e4cd64e94701af2f9e9c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7434f1552e51ae6cd38768db833c0620') in 0.022564 seconds 
-  Import took 0.030363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/VR Beginner/Audio/SFXWandShoot.ogg
-  artifactKey: Guid(0f575de090648e14da0f7e385b64535b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXWandShoot.ogg using Guid(0f575de090648e14da0f7e385b64535b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a9540ae16bd8abf5ee832b2ffadb57') in 0.018851 seconds 
-  Import took 0.027651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/VR Beginner/Audio/SFXChestLid.ogg
-  artifactKey: Guid(451e7faaa340f5341bd134a304098adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXChestLid.ogg using Guid(451e7faaa340f5341bd134a304098adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c3c6f50906a734175c92e7350d2f96') in 0.015143 seconds 
-  Import took 0.021416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/VR Beginner/Audio/SFXGlassSmash01.wav
-  artifactKey: Guid(c7108ea2363f3754bbe4bc1a7f3e6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXGlassSmash01.wav using Guid(c7108ea2363f3754bbe4bc1a7f3e6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc7eb4946d976d55f48110bf64c11e2') in 0.020484 seconds 
-  Import took 0.027060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/VR Beginner/Audio/SFXDoorOpen.ogg
-  artifactKey: Guid(6078a4cd878c2364c91458e02ea0da26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXDoorOpen.ogg using Guid(6078a4cd878c2364c91458e02ea0da26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee04ec627bc0f6f3f2d34566bb8f751') in 0.014639 seconds 
-  Import took 0.021255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/VR Beginner/Audio/FutzedBGMMarble.ogg
-  artifactKey: Guid(2ac63100fedeaab429c0456b63297f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/FutzedBGMMarble.ogg using Guid(2ac63100fedeaab429c0456b63297f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a94ec53c70c8daf214cb210fe4629b') in 0.016806 seconds 
-  Import took 0.023654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/VR Beginner/Audio/SFXImpactLog01.ogg
-  artifactKey: Guid(6b4bac90cc2b731469eec9b6ffcba5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXImpactLog01.ogg using Guid(6b4bac90cc2b731469eec9b6ffcba5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0d46e6eee1e4f95b77bf4c9118ec06') in 0.014417 seconds 
-  Import took 0.021044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/VR Beginner/Audio/SFXCauldronButton01.ogg
-  artifactKey: Guid(dde83f12004999e42a761ddfe8b6e5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXCauldronButton01.ogg using Guid(dde83f12004999e42a761ddfe8b6e5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6782fcac82a3e6b1f1adec4d6983aba8') in 0.019862 seconds 
-  Import took 0.026279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/VR Beginner/Audio/SFXImpactSoft01.ogg
-  artifactKey: Guid(83d9659bbc3fb134a88248e4c847c0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXImpactSoft01.ogg using Guid(83d9659bbc3fb134a88248e4c847c0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dafb121d9234ecc4f1ecf0092670ca5') in 0.016050 seconds 
-  Import took 0.023050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/VR Beginner/Audio/SFXWandTwinkleLoop.wav
-  artifactKey: Guid(2964d45b60d512642971a0b9597c61f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXWandTwinkleLoop.wav using Guid(2964d45b60d512642971a0b9597c61f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb1afb61d7a7274aef0826d0f290d9e') in 0.024771 seconds 
-  Import took 0.031267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/VR Beginner/Audio/SFXCauldronBubbles03.wav
-  artifactKey: Guid(3e0897d7e60751d46836868bc32fd660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXCauldronBubbles03.wav using Guid(3e0897d7e60751d46836868bc32fd660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46bc73f2bd97811ace3d5d9450deab2e') in 0.027950 seconds 
-  Import took 0.036414 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/VR Beginner/Audio/SFXKeyDrop02.wav
-  artifactKey: Guid(f3911c4c25860e0479c9834b1b29d1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXKeyDrop02.wav using Guid(f3911c4c25860e0479c9834b1b29d1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abf6b7749635c99c5ee380acaddbd4d') in 0.043713 seconds 
-  Import took 0.051595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/VR Beginner/Audio/SFXImpactHeavy01.ogg
-  artifactKey: Guid(e28c90b3e8525e24e8ffcc0a5e81f376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXImpactHeavy01.ogg using Guid(e28c90b3e8525e24e8ffcc0a5e81f376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa50bb8df6aa7b647b757e059e36b71') in 0.019536 seconds 
-  Import took 0.025415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/VR Beginner/Audio/SFXCauldronButton02.ogg
-  artifactKey: Guid(3785bef4b4d8bf74bb630d40dbf376a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXCauldronButton02.ogg using Guid(3785bef4b4d8bf74bb630d40dbf376a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1ae565da3f56d02c1b9b60b2cb6ebd') in 0.025743 seconds 
-  Import took 0.032690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/VR Beginner/Audio/SFXCauldronBubbles04.wav
-  artifactKey: Guid(6115a09e3a85f5643b34ac304ab49344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXCauldronBubbles04.wav using Guid(6115a09e3a85f5643b34ac304ab49344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40750a235aff4f8544b2faa6a9f65397') in 0.015410 seconds 
-  Import took 0.021642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/VR Beginner/Audio/SFXWandTwinkleLoop_Tuneful.wav
-  artifactKey: Guid(18f606970e9857d468acb536d4756272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXWandTwinkleLoop_Tuneful.wav using Guid(18f606970e9857d468acb536d4756272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1797401d63cffde1e8fe389254e017e0') in 0.020945 seconds 
-  Import took 0.027571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/VR Beginner/Audio/SFXEscape.wav
-  artifactKey: Guid(fd3bd321378413940b70e184d3689cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXEscape.wav using Guid(fd3bd321378413940b70e184d3689cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd58b9b06558052e4f2a195a611eb59') in 0.017936 seconds 
-  Import took 0.024459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/VR Beginner/Audio/SFXCauldronButton06.ogg
-  artifactKey: Guid(8ed980f6e06d512428418716cf0ba79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXCauldronButton06.ogg using Guid(8ed980f6e06d512428418716cf0ba79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b987a54bf1b322c06b26a2d28c019c') in 0.020907 seconds 
-  Import took 0.029417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/VR Beginner/Audio/SFXCauldronButton03.ogg
-  artifactKey: Guid(5e2c06615cb7d844894a2c1ca8087fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXCauldronButton03.ogg using Guid(5e2c06615cb7d844894a2c1ca8087fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d076304fdbb605205a297e873d7081a') in 0.019703 seconds 
-  Import took 0.025944 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/VR Beginner/Audio/SFXImpactLog03.ogg
-  artifactKey: Guid(791539fbf0218d74584f4ed16c1e82af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXImpactLog03.ogg using Guid(791539fbf0218d74584f4ed16c1e82af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06167dd300e3ba4b19d0a8615fa50ea1') in 0.016478 seconds 
-  Import took 0.023561 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/VR Beginner/Audio/SFXImpactGlass02.ogg
-  artifactKey: Guid(f904124dfe2b8f94eb34729931f321b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXImpactGlass02.ogg using Guid(f904124dfe2b8f94eb34729931f321b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d1e503b8af1cfe5cbb23372718c7f2') in 0.017914 seconds 
-  Import took 0.025055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/VR Beginner/Audio/SFXKeyDrop.wav
-  artifactKey: Guid(90e446b109c1ec24c9287706dc4b4a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXKeyDrop.wav using Guid(90e446b109c1ec24c9287706dc4b4a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5e5261a12caf7045dfc677b9761811') in 0.025605 seconds 
-  Import took 0.032394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/VR Beginner/Audio/SFXImpactHeavy02.ogg
-  artifactKey: Guid(cb9c766249a53f94882893cd9d551dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXImpactHeavy02.ogg using Guid(cb9c766249a53f94882893cd9d551dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d46f994b16dfdc3b4cd41d55bd98ef') in 0.014478 seconds 
-  Import took 0.021359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/VR Beginner/Audio/SFXAtmos.ogg
-  artifactKey: Guid(258ec0352c1e835408b182b35f359e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXAtmos.ogg using Guid(258ec0352c1e835408b182b35f359e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf389661494e373494c4e15f577c244d') in 0.023440 seconds 
-  Import took 0.030631 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/VR Beginner/Audio/SFXWandTwinkleZap.wav
-  artifactKey: Guid(b80dddc602be16e48965c1a06c6741bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXWandTwinkleZap.wav using Guid(b80dddc602be16e48965c1a06c6741bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4efafaa59f4476596c6239df8be5f43c') in 0.017584 seconds 
-  Import took 0.024521 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/VR Beginner/Audio/SFXDoorClosed.ogg
-  artifactKey: Guid(ff0fbfed0f2fd2f47bc4dd8cd489f200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXDoorClosed.ogg using Guid(ff0fbfed0f2fd2f47bc4dd8cd489f200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed23805b104ab4a0464209976aec7a02') in 0.020260 seconds 
-  Import took 0.026590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/VR Beginner/Audio/SFXImpactGlass01.ogg
-  artifactKey: Guid(aeecee88fe4ea95438b8294d67e1ad93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXImpactGlass01.ogg using Guid(aeecee88fe4ea95438b8294d67e1ad93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac2016b710129523625dc94b36dcf20') in 0.018232 seconds 
-  Import took 0.025396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/VR Beginner/Audio/SFXImpactSoft04.ogg
-  artifactKey: Guid(265b976ddc682714d9a91ef26e3a56a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXImpactSoft04.ogg using Guid(265b976ddc682714d9a91ef26e3a56a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116bef35dc3dd1a71954966ffc76fdb5') in 0.015630 seconds 
-  Import took 0.021620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/VR Beginner/Audio/SFXCorkPop02.ogg
-  artifactKey: Guid(bf3b6017f75ddfa41a9d9510453f637e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXCorkPop02.ogg using Guid(bf3b6017f75ddfa41a9d9510453f637e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d64a8483a01a462c823bafba62d5463') in 0.021481 seconds 
-  Import took 0.029417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/VR Beginner/Audio/SFXCauldronBrew.ogg
-  artifactKey: Guid(cc18a2c840bc944498125cc8e5d1ddb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXCauldronBrew.ogg using Guid(cc18a2c840bc944498125cc8e5d1ddb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71c74da6682fea24af2dffab1ab5bb8') in 0.017932 seconds 
-  Import took 0.023991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/VR Beginner/Audio/SFXCauldronButton08.ogg
-  artifactKey: Guid(26555f76312e8464d9d591def198dd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXCauldronButton08.ogg using Guid(26555f76312e8464d9d591def198dd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42b9cfc23e66eb73bf32fe6f56afcd5') in 0.018343 seconds 
-  Import took 0.024944 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/VR Beginner/Audio/SFXCauldronCreak02.ogg
-  artifactKey: Guid(23d995a9ff50d1e4e96cee0d9e578811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXCauldronCreak02.ogg using Guid(23d995a9ff50d1e4e96cee0d9e578811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3182d124c8f4f6e1a594952dcce01f') in 0.020613 seconds 
-  Import took 0.028465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/VR Beginner/Audio/SFXImpactSoft03.ogg
-  artifactKey: Guid(8cc71be63fa30a8419e2e07ffcdba8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXImpactSoft03.ogg using Guid(8cc71be63fa30a8419e2e07ffcdba8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5826b94bc72e4330327981623308da4d') in 0.016695 seconds 
-  Import took 0.024558 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/VR Beginner/Audio/SFXPotionReady.ogg
-  artifactKey: Guid(a5438be1d96979f49a91644905e54479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXPotionReady.ogg using Guid(a5438be1d96979f49a91644905e54479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9baa1992a319ff8f6cd0fa77635a19d9') in 0.018672 seconds 
-  Import took 0.027165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/VR Beginner/Audio/SFXDoorHumLoop.ogg
-  artifactKey: Guid(c1b79e2e7fc73f449af3051fb3044efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXDoorHumLoop.ogg using Guid(c1b79e2e7fc73f449af3051fb3044efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7e252f5cf0bac985643d92bf7d7ee4') in 0.024384 seconds 
-  Import took 0.031761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/VR Beginner/Audio/SFXFireFlare.ogg
-  artifactKey: Guid(ef7745ffc6ddb304fbe9359f0386220e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXFireFlare.ogg using Guid(ef7745ffc6ddb304fbe9359f0386220e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6482302ec56407d680f2fc049387c82c') in 0.015078 seconds 
-  Import took 0.021642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/VR Beginner/Audio/SFXImpactGlass04.ogg
-  artifactKey: Guid(b67b5a0c64ab34e43aca3ac3aa4b1477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXImpactGlass04.ogg using Guid(b67b5a0c64ab34e43aca3ac3aa4b1477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783c6a6d5abdc39f9a92087495b8bc2b') in 0.019064 seconds 
-  Import took 0.026069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/VR Beginner/Audio/SFXDoorHumLoop.ogg
-  artifactKey: Guid(c1b79e2e7fc73f449af3051fb3044efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXDoorHumLoop.ogg using Guid(c1b79e2e7fc73f449af3051fb3044efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7e252f5cf0bac985643d92bf7d7ee4') in 0.016770 seconds 
-  Import took 0.022994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/VR Beginner/Audio/SFXImpactLog02.ogg
-  artifactKey: Guid(9149f8e7e15cde44c8442820cae0c004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXImpactLog02.ogg using Guid(9149f8e7e15cde44c8442820cae0c004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd41c1b76b91a4480ebadba050e937e') in 0.017462 seconds 
-  Import took 0.025248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/VR Beginner/Audio/SFXLiquidPour.ogg
-  artifactKey: Guid(c73fa4776c882fb4883ae9e22b5c3df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXLiquidPour.ogg using Guid(c73fa4776c882fb4883ae9e22b5c3df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aeedf9a9a7ab44caa3e1b71335a8ad6') in 0.017445 seconds 
-  Import took 0.024167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/VR Beginner/Audio/SFXImpactBooks02.ogg
-  artifactKey: Guid(a7cd600e47c255946a3597a75b184727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXImpactBooks02.ogg using Guid(a7cd600e47c255946a3597a75b184727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec12c52b50079ff494e306393fe76be') in 0.021475 seconds 
-  Import took 0.028975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/VR Beginner/Audio/SFXCorkPop01.ogg
-  artifactKey: Guid(6a98e81ed6ddd014297d709a3a596565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXCorkPop01.ogg using Guid(6a98e81ed6ddd014297d709a3a596565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49e397b2b59ec67ced81398d9ca311d') in 0.028161 seconds 
-  Import took 0.035234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/VR Beginner/Audio/SFXCauldronButton05.ogg
-  artifactKey: Guid(21e7f6427ab3ec64d94c1960eeb1f810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXCauldronButton05.ogg using Guid(21e7f6427ab3ec64d94c1960eeb1f810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6c61939f3243a101acb51525613be1') in 0.016021 seconds 
-  Import took 0.025002 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/VR Beginner/Audio/SFXCrow.ogg
-  artifactKey: Guid(f4de882d8ce51b444a87ca35061d9856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXCrow.ogg using Guid(f4de882d8ce51b444a87ca35061d9856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9dfaa22ad30e255ae40d7abbaa71773') in 0.020509 seconds 
-  Import took 0.027043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/VR Beginner/Audio/SFXFire.ogg
-  artifactKey: Guid(c184d2b6c2965a4449fe96576f04fd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXFire.ogg using Guid(c184d2b6c2965a4449fe96576f04fd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec7f847b6f72c8c28a42762ac09ece8') in 0.016938 seconds 
-  Import took 0.022880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/VR Beginner/Audio/SFXImpactHeavy03.ogg
-  artifactKey: Guid(6cc51a4bbc69b8146b6170eb6efeae2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXImpactHeavy03.ogg using Guid(6cc51a4bbc69b8146b6170eb6efeae2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404b46b55deba4f22b52f9f07ba1a651') in 0.021620 seconds 
-  Import took 0.027568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/VR Beginner/Audio/SFXImpactBooks01.ogg
-  artifactKey: Guid(5a4cd35a425a3364aadb3fa808a3f3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXImpactBooks01.ogg using Guid(5a4cd35a425a3364aadb3fa808a3f3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24d2d43fec1603d4f80fc232a2a4c82') in 0.016860 seconds 
-  Import took 0.023912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/VR Beginner/Audio/SFXBookOpens.ogg
-  artifactKey: Guid(f3970f254a8e7774db3f46c61e95c151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXBookOpens.ogg using Guid(f3970f254a8e7774db3f46c61e95c151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc4e448e79ef0a914039d82d477e7e3') in 0.019628 seconds 
-  Import took 0.025738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/VR Beginner/Audio/SFXCauldronDrain.ogg
-  artifactKey: Guid(71bffc7420eac69418f1d516aa4d1f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXCauldronDrain.ogg using Guid(71bffc7420eac69418f1d516aa4d1f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6c988d43d43fbcae066ccffdf25b11') in 0.019839 seconds 
-  Import took 0.028344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/VR Beginner/Audio/SFXCauldronBubbles01.wav
-  artifactKey: Guid(986c52d55247fea4ab08fa9456e96e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXCauldronBubbles01.wav using Guid(986c52d55247fea4ab08fa9456e96e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5f73acde1d261679432b4a911947a3') in 0.017896 seconds 
-  Import took 0.025453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/VR Beginner/Audio/SFXImpactBooks03.ogg
-  artifactKey: Guid(4ce3900ffcaff544eaa834c6ee9c5bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Beginner/Audio/SFXImpactBooks03.ogg using Guid(4ce3900ffcaff544eaa834c6ee9c5bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14fc5060e9cac76df4dbb161955a233') in 0.015504 seconds 
-  Import took 0.022664 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.018552 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.64 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Public\Documents\Unity Projects\VR Room Alex\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Public\Documents\Unity Projects\VR Room Alex\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <ef3b6bf002d8435a97b4e938f6c49b02>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.143 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3144ms)
-		BeginReloadAssembly (219ms)
+	ReloadAssembly (2132ms)
+		BeginReloadAssembly (198ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (79ms)
-		EndReloadAssembly (2792ms)
-			LoadAssemblies (197ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (1822ms)
+			LoadAssemblies (190ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (855ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (91ms)
-			SetupLoadedEditorAssemblies (1207ms)
+			SetupTypeCache (547ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (711ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (208ms)
-				ProcessInitializeOnLoadAttributes (945ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (528ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (27ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.57 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
-Unloading 3336 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 151.0 MB.
-System memory in use after: 151.2 MB.
-
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 4115.
-Total: 6.023200 ms (FindLiveObjects: 0.478300 ms CreateObjectMapping: 0.306400 ms MarkObjects: 5.188100 ms  DeleteObjects: 0.048900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019306 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.55 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 1.39 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.16 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Public\Documents\Unity Projects\VR Room Alex\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Public\Documents\Unity Projects\VR Room Alex\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <ef3b6bf002d8435a97b4e938f6c49b02>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.762 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2763ms)
-		BeginReloadAssembly (282ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (120ms)
-		EndReloadAssembly (2353ms)
-			LoadAssemblies (187ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (976ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (798ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (162ms)
-				ProcessInitializeOnLoadAttributes (587ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (25ms)
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.87 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.42 ms.
 Unloading 3336 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 151.0 MB.
-System memory in use after: 151.2 MB.
+System memory in use before: 147.8 MB.
+System memory in use after: 148.0 MB.
 
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 4118.
-Total: 11.090500 ms (FindLiveObjects: 0.475000 ms CreateObjectMapping: 0.461200 ms MarkObjects: 10.108200 ms  DeleteObjects: 0.044000 ms)
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 3985.
+Total: 7.063000 ms (FindLiveObjects: 0.524400 ms CreateObjectMapping: 0.316600 ms MarkObjects: 6.160600 ms  DeleteObjects: 0.059400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
