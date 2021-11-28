@@ -7131,6 +7131,7 @@ GameObject:
   - component: {fileID: 7893636351697426141}
   - component: {fileID: 5868154345550660548}
   - component: {fileID: 8541965101918762766}
+  - component: {fileID: 7893636351697426143}
   m_Layer: 0
   m_Name: battery
   m_TagString: Untagged
@@ -7273,6 +7274,19 @@ CapsuleCollider:
   m_Height: 3.694115
   m_Direction: 2
   m_Center: {x: 0, y: 4.232998e-15, z: -0.31218097}
+--- !u!114 &7893636351697426143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7893636351697426139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b1f3ade8bc4b7443bf1e9810e2eed3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enable: {fileID: 846776018}
 --- !u!1 &7906721498325223137
 GameObject:
   m_ObjectHideFlags: 0
