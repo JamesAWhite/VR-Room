@@ -17,6 +17,7 @@ public class MyRayScript : MonoBehaviour
     }
 
     public SpawnObject objectSpawner;
+    public bool batt = false;
     RaycastHit hit;
     public void Cast()
     {
@@ -24,7 +25,7 @@ public class MyRayScript : MonoBehaviour
 
         if (Physics.Raycast(this.gameObject.transform.position, this.gameObject.transform.forward, out hit, Mathf.Infinity, layerMask))
         {
-            if (hit.transform.gameObject.name == "shittydude")
+            if (hit.transform.gameObject.name == "shittydude" && batt)
             {
                 objectSpawner.Spawn();
             }

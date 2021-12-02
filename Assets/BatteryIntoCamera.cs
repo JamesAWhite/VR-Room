@@ -17,13 +17,15 @@ public class BatteryIntoCamera : MonoBehaviour
     }
 
     public GameObject enable = new GameObject();
+    [SerializeField] private GameObject manager = new GameObject();
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.name == "Camera")
         {
             Destroy(gameObject);
-            enable.GetComponent<MyRayScript>().enabled = true;
+            enable.GetComponent<MyRayScript>().batt = true;
+            
         }
     }
 }
