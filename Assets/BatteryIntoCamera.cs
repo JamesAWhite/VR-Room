@@ -25,7 +25,12 @@ public class BatteryIntoCamera : MonoBehaviour
         {
             Destroy(gameObject);
             enable.GetComponent<MyRayScript>().batt = true;
-            manager.GetComponent<HintManager>().ChangeGameState(2);
+            manager.GetComponent<HintManager>().ChangeGameState(3);
         }
+    }
+
+    public void pickUpBattery()
+    {
+        manager.GetComponent<HintManager>().ChangeGameState(2);
     }
 }
