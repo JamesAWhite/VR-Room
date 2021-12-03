@@ -33,10 +33,13 @@ public class HintManager : MonoBehaviour
                 GetComponent<Text>().text = "Take a picture of something weird...";
                 break;
             case 4:
+                GetComponent<Text>().text = "Perfect. Put that picture somewhere comfy.";
                 break;
             case 5:
+                GetComponent<Text>().text = "Good. Now flip the switch";
                 break;
             case 6:
+                GetComponent<Text>().text = "oh no";
                 break;
             case 7:
                 break;

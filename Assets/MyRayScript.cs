@@ -18,6 +18,7 @@ public class MyRayScript : MonoBehaviour
 
     public SpawnObject objectSpawner;
     public bool batt = false;
+    private bool pictureTaken = false;
     RaycastHit hit;
     public void Cast()
     {

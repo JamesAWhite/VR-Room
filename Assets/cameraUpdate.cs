@@ -17,7 +17,7 @@ public class cameraUpdate : MonoBehaviour
     }
 
     bool didUpdate;
-    [SerializeField] private GameObject managerObject = new GameObject();
+    [SerializeField] private GameObject managerObject;
     public void oneTimeUpdate()
     {
         if (!didUpdate)

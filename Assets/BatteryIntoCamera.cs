@@ -16,8 +16,8 @@ public class BatteryIntoCamera : MonoBehaviour
         
     }
 
-    public GameObject enable = new GameObject();
-    [SerializeField] private GameObject manager = new GameObject();
+    public GameObject enable;
+    [SerializeField] private GameObject manager;
 
     private void OnCollisionEnter(Collision collision)
     {
