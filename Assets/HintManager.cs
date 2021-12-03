@@ -92,11 +92,14 @@ public class HintManager : MonoBehaviour
     }
 
     public GameObject keySpawner;
+    private bool spawn = true;
     public void keySpawnCheck()
     {
-        if (step1 && step2 && step3 && step4 && step5 && step6 && step7)
+        if (step1 && step2 && step3 && step4 && step5 && step6 && step7 && spawn)
         {
+            spawn = false;
             keySpawner.GetComponent<SpawnObject>().Spawn();
+            ChangeGameState(7);
         }
     }
 }
