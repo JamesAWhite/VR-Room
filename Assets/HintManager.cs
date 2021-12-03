@@ -18,16 +18,19 @@ public class HintManager : MonoBehaviour
         
     }
 
-    void ChangeGameState()
+    public void ChangeGameState(int newState)
     {
+        gameState = newState;
         switch (gameState)
         {
             case 1:
-                GetComponent<Text>().text = "joe balls";
+                GetComponent<Text>().text = "It needs a battery. Check the drawers.";
                 break;
             case 2:
+                GetComponent<Text>().text = "That's a battery! Put it in the camera.";
                 break;
             case 3:
+                GetComponent<Text>().text = "Take a picture of something weird...";
                 break;
             case 4:
                 break;
