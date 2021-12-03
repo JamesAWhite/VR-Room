@@ -60,12 +60,15 @@ public class HintManager : MonoBehaviour
                 step6 = true;
                 break;
             case 7:
+                GetComponent<Text>().text = "Get the key from the table";
                 step7 = true;
                 break;
             case 8:
+                GetComponent<Text>().text = "Put it in the keyhole";
                 step8 = true;
                 break;
             case 9:
+                GetComponent<Text>().text = "Open the door";
                 step9 = true;
                 break;
             case 10:
@@ -75,6 +78,7 @@ public class HintManager : MonoBehaviour
             default:
                 break;
         }
+        keySpawnCheck();
     }
 
     public bool finalStepCheck()
@@ -85,5 +89,14 @@ public class HintManager : MonoBehaviour
             return true;
         }
         return false;
+    }
+
+    public GameObject keySpawner;
+    public void keySpawnCheck()
+    {
+        if (step1 && step2 && step3 && step4 && step5 && step6 && step7)
+        {
+            keySpawner.GetComponent<SpawnObject>().Spawn();
+        }
     }
 }

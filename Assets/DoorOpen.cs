@@ -25,5 +25,6 @@ public class DoorOpen : MonoBehaviour
         {
             targetObject.SetActive(false);
         }
+        targetObject.SetActive(false);
     }
 }
