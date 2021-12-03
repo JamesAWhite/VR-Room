@@ -20,6 +20,7 @@ public class HintManager : MonoBehaviour
         step8 = false;
         step9 = false;
         step10 = false;
+        GetComponent<Text>().text = "Try picking up the camera.";
     }
 
     // Update is called once per frame
@@ -56,19 +57,19 @@ public class HintManager : MonoBehaviour
                 step5 = true;
                 break;
             case 6:
-                GetComponent<Text>().text = "Twist the knob to the right";
+                GetComponent<Text>().text = "Twist the knob to the right.";
                 step6 = true;
                 break;
             case 7:
-                GetComponent<Text>().text = "Get the key from the table";
+                GetComponent<Text>().text = "Get the key from the table.";
                 step7 = true;
                 break;
             case 8:
-                GetComponent<Text>().text = "Put it in the keyhole";
+                GetComponent<Text>().text = "Put it in the keyhole.";
                 step8 = true;
                 break;
             case 9:
-                GetComponent<Text>().text = "Open the door";
+                GetComponent<Text>().text = "Open the door.";
                 step9 = true;
                 break;
             case 10:
