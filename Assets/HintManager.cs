@@ -36,10 +36,10 @@ public class HintManager : MonoBehaviour
                 GetComponent<Text>().text = "Perfect. Put that picture somewhere comfy.";
                 break;
             case 5:
-                GetComponent<Text>().text = "Good. Now flip the switch";
+                GetComponent<Text>().text = "Good. Now turn on the switch.";
                 break;
             case 6:
-                GetComponent<Text>().text = "oh no";
+                GetComponent<Text>().text = "Twist the knob to the right";
                 break;
             case 7:
                 break;
